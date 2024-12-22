@@ -1,0 +1,15 @@
+.BlockInfo{
+    margin: 15px;
+    background-color: #1E1E1F;
+    width: 300px;
+    padding: 15px;
+    height: 160px;
+    border-radius: 20px;
+    color: #fff;
+    &__title{
+        font-size: 76px;
+    }
+    &__desc{
+
+    }
+}

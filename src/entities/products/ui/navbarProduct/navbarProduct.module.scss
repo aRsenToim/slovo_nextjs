@@ -1,0 +1,26 @@
+.NavbarProduct{
+    background: none;
+    border: 1px solid var(--Light-grey-14, #3b3b3c);
+    width: 250px;
+    border-radius: 10px;
+    height: auto;
+    &__conteiner{
+        text-align: center;
+        width: 250px;
+    }
+    &__item{
+        list-style: none;
+        margin: 5px;
+        background-color: #1E1E1F;
+        padding: 8px;
+        border-radius: 10px;
+    }
+    &__link{
+        color: #fff;
+        text-decoration: none;
+    }
+    &__linkActive{
+        color: #A35AF3;
+        text-decoration: none;
+    }
+}

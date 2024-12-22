@@ -1,0 +1,23 @@
+.Header{
+    background-color: #1E1E1F;
+    &__conteiner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px auto;
+        width: 80%;
+    }
+    &__nav{
+        display: flex;
+        align-items: center;
+    }
+    &__item{
+        list-style: none;
+        margin-left: 10px;
+    }
+    &__link{
+        color: #fff;
+        text-decoration: none;
+        margin: 0px 10px;
+    }
+}
